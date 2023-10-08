@@ -1,0 +1,13 @@
+span {
+    font-style: italic;
+    background-color: bisque;
+    color: chocolate;
+}
+
+titled {
+    font-size: 100;
+    font-weight: 300;
+    color: brown;
+    background-color: burlywood;
+}
+
