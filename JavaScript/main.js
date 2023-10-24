@@ -64,5 +64,53 @@ switch(stroka)
 }
 
 
-let arr = [];
+let arr = [5, true, "word", 5.7, 0, -100];
+console.log(arr);
+arr[1] = "o.0";
+console.log(arr[1]);
+console.log(arr.length);
+let matrix = [[5, true], ["word", 5.7], [0, -100]];
+matrix[1][0] = "wassup!";
+console.log(matrix[1][0]);
 
+
+for (let i = 0; i < 10; i++)
+{
+    console.log("Привет, это номер ", i+1);
+}
+
+let j = 10;
+console.log("Обратный остчёт:");
+while(j>=0)
+{
+    console.log(j + "...");
+    j--;
+}
+console.log("Пуск!");
+
+let x = 100;
+do {
+    console.log(x);
+    x/=2;
+} while (x>10);
+
+console.log("Вывод меньше 20:")
+for (let i = 10; i <= 20; i++) {
+    if (i > 15 )
+    break;
+    
+    console.log(i);
+}
+
+console.log("Вывод нечётных: ");
+for (let i = 10; i <= 20; i++) {
+    if (i % 2 == 0)
+    continue;
+    console.log(i);
+}
+
+let new_arr = [5, 7, 3, 8, 32, 9, 10];
+for (let i = 0; i < new_arr.length; i++){
+    new_arr[i]*=2;
+    console.log("Элемент " + (i+1) + ": " + new_arr[i]);
+}
